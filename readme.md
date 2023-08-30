@@ -1,4 +1,5 @@
-# Press for language swith:
+# Press for language swith
+
     [ქართული][ge] - **[english][en]** - [Русский][ru]
 
 ## about project

@@ -35,3 +35,11 @@
 --- `source ./venv/bin/activate.fish`
 -- csh/tch:
 --- `source ./venv/bin/activate.csh`
+
+
+
+
+
+[en]: https://github.com/bitcamp-group-2/twitter-clone-py-t2#readme
+[ge]: readme.ge.md
+[ru]: readme.ru.md

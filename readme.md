@@ -1,6 +1,4 @@
-# Press for language swith
-
-    **[English][en]** - [ქართული][ge] - [Русский][ru]
+**[English][en]** - [ქართული][ge] - [Русский][ru]
 
 ## about project
     This is a MVP - twitter-clone:

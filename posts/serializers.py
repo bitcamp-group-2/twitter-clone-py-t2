@@ -3,10 +3,14 @@ from .models import Post
 # from hashtags.serializers import HashtagSerializer
 
 
-class PostSerializer(serializers.models):
-    class meta:
+class PostSerializer(serializers.ModelSerializer):
+    class Meta:
         model = Post
-        field = "__all__"
+        fields = ['user', 'title']
+
+        # def __init__(self, *args, **kwargs):
+        # super().__init__(*args, **kwargs)
+    
 
 
 # class PostSerializer(serializers.ModelSerializer):

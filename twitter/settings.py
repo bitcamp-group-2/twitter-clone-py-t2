@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     # write your app
     'posts',
+    'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',
     #----------------------
@@ -135,3 +136,6 @@ REST_FRAMEWORK = {
     ],
     
 }
+
+# for Allow ALL
+CORS_ALLOW_ALL_ORIGINS = True

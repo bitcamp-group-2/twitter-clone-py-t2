@@ -20,6 +20,8 @@ def registration(request):
         user_ser = serializer.save()
         user = User.objects.get(username = request.data["username"])
         user.set_password(request.data["password"])
+        
+        # creating token for user
         token = Token.objects.create(user = user)
         user.save()
         return Response({"message": "Registration successful."}, status=status.HTTP_201_CREATED)

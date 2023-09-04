@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     # write your app
+    'groups',  #BaCho
     'posts',
     'rest_framework',
     'rest_framework.authtoken',

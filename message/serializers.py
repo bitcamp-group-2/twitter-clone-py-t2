@@ -1,11 +1,11 @@
-from models import Message
+from .models import Message
 from rest_framework import serializers
 from django.contrib.auth.models import User
 
 class MessageSerializer(serializers.ModelSerializer):
-    sender = User(read_only=True)
-    recipient = User(read_only=True)
+    sender = serializers.PrimaryKeyRelatedField(queryset=User.objects.all())
+    recipient = serializers.PrimaryKeyRelatedField(queryset=User.objects.all())
 
     class Meta:
         model = Message
-        fields = '__all__'
+        fields = ['sender', 'recipient', 'content']

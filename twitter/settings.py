@@ -31,8 +31,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    # write your app
+    'like',
+    'hashtag',
     'posts',
+    'message',
     'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',

@@ -18,9 +18,10 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    # path('', include('posts.urls')),
-    path('home/', include('registracion.urls')),
-    # path('', include("message.urls")),
     path('', include("groups.urls")), #BaCho
+    path('admin/', admin.site.urls),
+    path('', include('posts.urls')),
+    path('home/', include('registracion.urls')),
+    path('', include("message.urls")),
+    
 ]

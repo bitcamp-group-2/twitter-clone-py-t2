@@ -9,7 +9,5 @@ class Comment(models.Model):
     user_id = models.ForeignKey(User, on_delete=models.CASCADE)
     text = models.TextField()
 
-    def __str__(self):
-        return f"Comment by {self.user_id.username} on Post {self.post_id.id}"
 
 

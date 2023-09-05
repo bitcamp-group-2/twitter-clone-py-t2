@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('', include("groups.urls")),  # BaCho
+    # path('', include("groups.urls")),  # BaCho
     path('feed/', include("feed.urls")),  # BaCho
     path('admin/', admin.site.urls),
     path('', include('posts.urls')),

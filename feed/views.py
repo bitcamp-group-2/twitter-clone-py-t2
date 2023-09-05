@@ -1,7 +1,7 @@
 from django.shortcuts import render
-from .models import Post
+from .models import PostFeeds
 
 
 def feeds_view(request):
-    posts = Post.objects.all().order_by('-created_at')
-    return render(request, 'feed/feeds.html', {'posts': posts})
+    posts = PostFeeds.objects.all().order_by('-created_at')
+    return render(request, PostFeeds, {'posts': posts})

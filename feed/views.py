@@ -1,13 +1,7 @@
 from django.shortcuts import render
-from rest_framework import generics
-from .models import feed
-from .serializers import feedSerializer
+from .models import Post
 
-# Create your views here.
-class feedList(generics.ListCreateAPIView):
-    queryset = feed.objects.all()
-    serializer_class = feedSerializer
 
-class feedDetail(generics.RetrieveUpdateDestroyAPIView):
-    queryset = feed.objects.all()
-    serializer_class = feedSerializer
+def feeds_view(request):
+    posts = Post.objects.all().order_by('-created_at')
+    return render(request, 'feed/feeds.html', {'posts': posts})

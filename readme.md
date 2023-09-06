@@ -1,10 +1,13 @@
 **[English][en]** - [ქართული][ge] - [Русский][ru]
+-----
 
 ![twitter_clone](https://techcrunch.com/wp-content/uploads/2023/07/x-logo-beheads-twitter-logo.jpg?w=1390&crop=1)
 
+-----
+
 ## about project
     This is a MVP - twitter-clone:
-        - 
+-----
 
 
 ### For Usage or Test :
@@ -12,23 +15,24 @@
 -- `https://github.com/bitcamp-ge/twitter-clone-py-t2.git`
 
 - Create a Python venv (environment):
--- `python -m venv venv`
+-- ```python -m venv venv```
 
 - Activate Python venv:
 -- If you need tutorial how to activate venv, press [Here][tutorial]
 
 - Install Python requirements:
--- `pip install -r requirements.txt`
+-- ```pip install -r requirements.txt```
 
 - Create Django Migrations:
--- `python manage.py makemigrations`
+-- ```python manage.py makemigrations```
 
 - Run Django migrations:
--- `python manage.py migrate`
+-- ```python manage.py migrate```
 
 - Start The Django Server:
--- `python manage.py runserver`
+-- ```python manage.py runserver```
 
+-----
 
 #### Tutorial - How to activate python venv:
 
@@ -36,23 +40,23 @@
 
 - - cmd.exe:
 
-- - - `.\venv\Scripts\activate.bat`
+- - - ```.\venv\Scripts\activate.bat```
 
 - For Linux users:
 
 - - bash/zsh:
 
-- - - `source ./venv/bin/activate`
+- - - ```source ./venv/bin/activate```
 
 - - fish:
 
-- - - `source ./venv/bin/activate.fish`
+- - - ```source ./venv/bin/activate.fish```
 
 - - csh/tch:
 
-- - - `source ./venv/bin/activate.csh`
+- - - ```source ./venv/bin/activate.csh```
 
-
+-----
 
 
 

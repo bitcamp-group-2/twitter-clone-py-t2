@@ -1,4 +1,6 @@
-[English][en] - [ქართული][ge] - **[Русский][ru]**
+- [English](https://github.com/bitcamp-group-2/twitter-clone-py-t2/blob/george/readme.md)
+- [ქართული](https://github.com/bitcamp-group-2/twitter-clone-py-t2/blob/george/redme.ge.md)
+- [Русский](https://github.com/bitcamp-group-2/twitter-clone-py-t2/blob/george/readme.ru.md)
 
 ## об проекте
     ето MVP (минималное) - twitter-clone
@@ -37,6 +39,3 @@
 
 
 
-[en]: https://github.com/bitcamp-group-2/twitter-clone-py-t2#readme
-[ge]: readme.ge.md
-[ru]: readme.ru.md

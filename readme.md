@@ -32,23 +32,23 @@
 
 - For Windows Users:
 
--- cmd.exe:
+- - cmd.exe:
 
---- `.\venv\Scripts\activate.bat`
+- - - `.\venv\Scripts\activate.bat`
 
 - For Linux users:
 
--- bash/zsh:
+- - bash/zsh:
 
---- `source ./venv/bin/activate`
+- - - `source ./venv/bin/activate`
 
--- fish:
+- - fish:
 
---- `source ./venv/bin/activate.fish`
+- - - `source ./venv/bin/activate.fish`
 
--- csh/tch:
+- - csh/tch:
 
---- `source ./venv/bin/activate.csh`
+- - - `source ./venv/bin/activate.csh`
 
 
 

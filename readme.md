@@ -1,6 +1,6 @@
 **[English][en]** - [ქართული][ge] - [Русский][ru]
 
-![twitter_clone](https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1246184086.jpg?w=1390&crop=1)
+![twitter_clone](https://stock.adobe.com/ge/images/twitter-logo-spotlighted-on-black-background/455656949)
 
 ## about project
     This is a MVP - twitter-clone:

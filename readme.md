@@ -1,6 +1,6 @@
 **[English][en]** - [ქართული][ge] - [Русский][ru]
 
-![twitter_clone](https://stock.adobe.com/ge/images/twitter-logo-spotlighted-on-black-background/455656949)
+![twitter_clone](https://as2.ftcdn.net/v2/jpg/04/55/65/69/1000_F_455656949_lOgZhle5nMrzDJdoUMpZU0CH3CHWGprt.jpg)
 
 ## about project
     This is a MVP - twitter-clone:

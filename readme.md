@@ -1,6 +1,6 @@
 **[English][en]** - [ქართული][ge] - [Русский][ru]
 
-![twitter_clone](https://as2.ftcdn.net/v2/jpg/04/55/65/69/1000_F_455656949_lOgZhle5nMrzDJdoUMpZU0CH3CHWGprt.jpg)
+![twitter_clone](https://techcrunch.com/wp-content/uploads/2023/07/x-logo-beheads-twitter-logo.jpg?w=1390&crop=1)
 
 ## about project
     This is a MVP - twitter-clone:

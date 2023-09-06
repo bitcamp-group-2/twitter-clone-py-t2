@@ -6,41 +6,59 @@
     ეს არის twitter ის მინიმალური კლონი
 
 ## ინსტრუქცია:
-- იმისთვის რომ კოდი გადაიტანოთ ლოკალურ მანქანაზე:
--- `https://github.com/bitcamp-ge/twitter-clone-py-t2.git`
+- იმისთვის რომ კოდი გადაიტანოთ(გადააკოპირო) ლოკალურ მანქანაზე:
+```
+https://github.com/bitcamp-ge/twitter-clone-py-t2.git
+```
+
 - შექმენით Python -ის ვირტუალური ყუთი (Python venv (environment)):
--- `python -m venv venv`
+```
+python -m venv venv
+```
+
 - ვირტუალური ყუთის აქტივაციის ინსთრუქცია ქვემოთ წერია თუ გაინტერესებს
+
 - საჭირო ბიბლიოთეკების ინსტალაცია:
--- `pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
+
 - მიგრაციების შექმნა:
--- `python manage.py makemigrations`
+```
+python manage.py makemigrations
+```
+
 - მიგრაციების გაშვება:
--- `python manage.py migrate`
+```
+python manage.py migrate
+```
+
 - Django სერვერის გაშვება (start):
--- `python manage.py runserver`
+```
+python manage.py runserver
+```
 
 
-### ინსტრუქცია - ვირტუალური ყუთის აქტივაცია:
+# ინსტრუქცია - ვირტუალური ყუთის აქტივაცია:
 
-- Windows - ის მომხმარებლებისთვის:
--- cmd.exe:
---- `.\venv\Scripts\activate.bat`
+## Windows - ის მომხმარებლებისთვის:
+- cmd.exe:
+```
+.\venv\Scripts\activate.bat
+```
 
-- Linux ის მომხმარებლებისთვის:
--- bash/zsh:
---- `source ./venv/bin/activate`
--- fish:
---- `source ./venv/bin/activate.fish`
--- csh/tch:
---- `source ./venv/bin/activate.csh`
+## Linux ის მომხმარებლებისთვის:
+- bash/zsh:
+```
+source ./venv/bin/activate
+```
 
+- fish:
+```
+source ./venv/bin/activate.fish
+```
 
-
-
-
-
-
-
-
-
+- csh/tch:
+```
+source ./venv/bin/activate.csh
+```

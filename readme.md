@@ -1,6 +1,10 @@
 **[English][en]** - [ქართული][ge] - [Русский][ru]
 -----
 
+- [English](https://github.com/bitcamp-group-2/twitter-clone-py-t2/blob/george/readme.md)
+- [ქართული](https://github.com/bitcamp-group-2/twitter-clone-py-t2/blob/george/redme.ge.md)
+- [Русский](https://github.com/bitcamp-group-2/twitter-clone-py-t2/blob/george/readme.ru.md)
+
 ![twitter_clone](https://techcrunch.com/wp-content/uploads/2023/07/x-logo-beheads-twitter-logo.jpg?w=1390&crop=1)
 
 -----

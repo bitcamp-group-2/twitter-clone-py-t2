@@ -5,12 +5,12 @@
 
 -----
 
-## about project
+### about project
     This is a MVP - twitter-clone:
 -----
 
 
-### For Usage or Test :
+## For Usage or Test :
 - For clone project in your local machine:
 ```
 https://github.com/bitcamp-ge/twitter-clone-py-t2.git
@@ -51,7 +51,7 @@ python manage.py runserver
 -----
 
 
-#### Tutorial - How to activate python venv:
+# Tutorial - How to activate python venv:
 
 - For Windows Users:
 

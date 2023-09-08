@@ -4,8 +4,8 @@ from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
 
-router.register(r'comments/create/', CommentCreateView, basename='create' ),
-router.register (r'comments/list/', CommentListView, basename='list'),
+router.register(r'create', CommentCreateView, basename='create' ),
+router.register (r'list', CommentListView, basename='list'),
 
 
 

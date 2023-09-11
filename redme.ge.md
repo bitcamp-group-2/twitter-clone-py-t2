@@ -8,7 +8,7 @@
 ## ინსტრუქცია:
 - იმისთვის რომ კოდი გადაიტანოთ(გადააკოპირო) ლოკალურ მანქანაზე:
 ```
-https://github.com/bitcamp-ge/twitter-clone-py-t2.git
+https://github.com/bitcamp-python-projects/twitter-clone-py-t2.git
 ```
 
 - შექმენით Python -ის ვირტუალური ყუთი (Python venv (environment)):

@@ -8,7 +8,7 @@
 # инструкция как ползоватся и тестироват на локалном
 - для клонирование проект в вашем комп
 ```
-https://github.com/bitcamp-ge/twitter-clone-py-t2.git
+https://github.com/bitcamp-python-projects/twitter-clone-py-t2.git
 ```
 
 - для создание виртуалное машини (venv - virtual-environment)

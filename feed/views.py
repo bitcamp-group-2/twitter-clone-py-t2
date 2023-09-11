@@ -1,7 +1,8 @@
 from django.shortcuts import render
-from .models import PostFeeds
+from .models import Feed_List
 
 
 def feeds_view(request):
-    posts = PostFeeds.objects.all().order_by('-created_at')
-    return render(request, PostFeeds, {'posts': posts})
+    posts = Feed_List.objects.order_by(
+        '-created_at')[:3]  # Get the latest three tweets
+    return render(request, Feed_List, {'posts': posts})

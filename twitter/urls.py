@@ -21,8 +21,8 @@ urlpatterns = [
     path('groups/', include("groups.urls")),  # BaCho
     path('feed/', include("feed.urls")),  # BaCho
     path('admin/', admin.site.urls),
-    # path('', include('posts.urls')),
-    path('home/', include('registracion.urls')),
-    # path('', include("message.urls")),
-
+    path('posts/', include('posts.urls')),
+    path('', include("registracion.urls")),
+    path('message', include('message.urls')),
+    path('comments', include('comments.urls')),
 ]

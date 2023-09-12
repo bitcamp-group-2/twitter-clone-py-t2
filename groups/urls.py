@@ -1,7 +1,13 @@
-from django.urls import path
+from django.urls import path, include
 from . import views
+from rest_framework import routers
+from .views import groupsList
+
+
+router = routers.DefaultRouter()
+router.register(r'groups', views.groupsList, basename='groups')
 
 urlpatterns = [
-    path('groups/', views.groupsList.as_view()),
-    path('groups/<int:pk>/', views.groupsDetail.as_view()),
+    path('', include(router.urls)),
+    path('<int:pk>/', include(router.urls)),
 ]

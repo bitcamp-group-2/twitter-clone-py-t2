@@ -7,16 +7,17 @@ from django.shortcuts import get_object_or_404
 from django.http import JsonResponse
 from django.contrib.auth.decorators import permission_required
 from .models import AdminPermission  # your model
+from rest_framework import viewsets
 
 # Create your views here.
 
 
-class groupsList(generics.ListCreateAPIView):
+class groupsList(viewsets.ModelViewSet):
     queryset = groups.objects.all()
     serializer_class = groupsSerializer
 
 
-class groupsDetail(generics.RetrieveUpdateDestroyAPIView):
+class groupsDetail(viewsets.ModelViewSet):
     queryset = groups.objects.all()
     serializer_class = groupsSerializer
 

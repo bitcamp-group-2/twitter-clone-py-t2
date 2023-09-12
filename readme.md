@@ -15,7 +15,7 @@
 ## For Usage or Test :
 - For clone project in your local machine:
 ```
-https://github.com/bitcamp-ge/twitter-clone-py-t2.git
+https://github.com/bitcamp-python-projects/twitter-clone-py-t2.git
 ```
 -----
 

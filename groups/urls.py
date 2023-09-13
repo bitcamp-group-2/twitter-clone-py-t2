@@ -5,7 +5,7 @@ from .views import groupsList
 
 
 router = routers.DefaultRouter()
-router.register(r'groups', views.groupsList, basename='groups')
+router.register(r'', views.groupsList, basename='groups')
 
 urlpatterns = [
     path('', include(router.urls)),

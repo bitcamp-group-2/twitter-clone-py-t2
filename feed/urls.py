@@ -5,7 +5,7 @@ from .views import FeedsAPIView
 
 
 router = routers.DefaultRouter()
-router.register(r'feed', views.FeedsAPIView, basename='feed')
+router.register(r'', views.FeedsAPIView, basename='feed')
 
 urlpatterns = [
     path('', include(router.urls)),

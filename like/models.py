@@ -1,8 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
-from models import Post
-
-
+from posts.models import Post
 
 class Like(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)

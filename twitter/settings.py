@@ -31,13 +31,17 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # write your app
     'like',
     'hashtag',
+    'feed',     #BaCho
+    'groups',   #BaCho
     'posts',
     'message',
     'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',
+    'message',
     #----------------------
     'django.contrib.admin',
     'django.contrib.auth',
@@ -45,7 +49,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'registracion'
+    'registracion',
+    'comments'
 ]
 
 MIDDLEWARE = [

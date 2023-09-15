@@ -12,7 +12,7 @@ class PostViewSet(viewsets.ModelViewSet):
     def create_post(self, request):
         content = request.data.get('content')
         post = request.save(user=self.request.user)
-        # hashtags = request.data.get('hashtags', '').split(',')
+        hashtags = request.data.get('hashtags', '').split(',')
 
         # Your logic for creating the post and adding hashtags goes here
 
@@ -22,7 +22,7 @@ class PostViewSet(viewsets.ModelViewSet):
     @login_required
     def create_with_hashtags(self, request):
         content = request.data.get('content')
-        # hashtags = request.data.get('hashtags', '').split(',')
+        hashtags = request.data.get('hashtags', '').split(',')
 
         # Your logic for creating the post and adding hashtags goes here
 

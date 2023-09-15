@@ -7,9 +7,6 @@ router = DefaultRouter()
 router.register(r'create', CommentCreateView, basename='create' ),
 router.register (r'list', CommentListView, basename='list'),
 
-
-
-
 urlpatterns =[
     path('', include(router.urls))
 ]

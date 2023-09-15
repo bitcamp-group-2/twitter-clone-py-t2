@@ -18,10 +18,11 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
+    path('groups/', include("groups.urls")),  # BaCho
+    path('feed/', include("feed.urls")),  # BaCho
     path('admin/', admin.site.urls),
     path('posts/', include('posts.urls')),
     path('', include("registracion.urls")),
     path('message/', include('message.urls')),
     path('comments/', include('comments.urls')),
-
 ]

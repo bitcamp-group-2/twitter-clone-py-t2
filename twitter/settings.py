@@ -32,9 +32,12 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     # write your app
+    'like',
+    'hashtag',
     'feed',     #BaCho
     'groups',   #BaCho
     'posts',
+    'message',
     'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',

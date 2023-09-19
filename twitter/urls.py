@@ -25,4 +25,6 @@ urlpatterns = [
     path('', include("registracion.urls")),
     path('message/', include('message.urls')),
     path('comments/', include('comments.urls')),
+    path('like', include("like.urls")),
+    path('hashtag', include("hashtag.urls")),
 ]
